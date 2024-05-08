@@ -108,6 +108,7 @@ public class Main {
                         case 3:
                             System.out.println("Você escolheu visualizar Memoria RAM:");
                             System.out.println(memoria01.exibeMemoria());
+                            System.out.println();
                             break;
                         case 4:
                             System.out.println("Você escolheu visualizar Rede:");
@@ -118,7 +119,7 @@ public class Main {
                         case 5: 
                             System.out.println("Você escolheu visualizar Dispositivos conectados:");
                             dispositivo01.getDispositivos();
-
+                            break;
                         case 6:
                             Integer total3 = 5;
                             System.out.print("Saindo: [");
@@ -137,7 +138,7 @@ public class Main {
                             break;
                     }
 
-                } while (!opcaoDesejada.equals(5));
+                } while (!opcaoDesejada.equals(6));
 
         } else {
             System.out.println("Usuário ou senha incorretos. Tente novamente mais tarde");
